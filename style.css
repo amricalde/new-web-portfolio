@@ -270,6 +270,7 @@ sections{
 
 .about-containers {
     gap: 2rem;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -359,3 +360,29 @@ article.icon {
     cursor: default;
 }
 
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 70%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
