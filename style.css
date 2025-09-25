@@ -42,7 +42,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 80px;
 }
 
 .nav-links {
@@ -150,12 +150,13 @@ a:hover {
 
 /* SECTIONS */
 
-sections{
+section{
+    position: relative;
     padding-top: 4vh;
-    height: 96vh;
+    min-height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
+    margin-bottom: 5rem;
 }
 
 .section-container {
@@ -168,7 +169,7 @@ sections{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .section_pic-container {
@@ -393,7 +394,7 @@ article.icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 30vh;
 }
 
 .contact-info-upper-container {
@@ -425,4 +426,16 @@ article.icon {
 
 .email-icon {
     height: 2.6rem;
+}
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(85, 85, 85);
 }
